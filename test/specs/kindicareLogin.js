@@ -20,7 +20,8 @@ describe('My Login application', () => {
         await browser.pause(5000);
         console.log(await browser.getTitle())
         await expect(browser).toHaveTitleContaining("Kindicare | Find and Compare Childcare Centres Nearby")
-    //a
+    //
 
     });
 });
+//test
